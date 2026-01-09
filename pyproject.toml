@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strands-rendercv"
+dynamic = ["version"]
+description = "Strands Agents tool for generating beautiful CVs with RenderCV"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "strands-agents>=0.1.0",
+    "rendercv[full]>=1.14.0",
+    "ruamel.yaml>=0.18.0",
+]
+authors = [
+    {name = "Cagatay Cali", email = "cagataycali@gmail.com"}
+]
+keywords = ["cv", "resume", "strands", "agents", "ai", "rendercv"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+[project.urls]
+Homepage = "https://github.com/cagataycali/strands-rendercv"
+Repository = "https://github.com/cagataycali/strands-rendercv"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["strands_rendercv*"]
+exclude = ["examples*", "tests*", "*.tests*"]
+
+[tool.setuptools_scm]
+write_to = "strands_rendercv/_version.py"

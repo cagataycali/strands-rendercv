@@ -1,0 +1,135 @@
+cv:
+  name: Jordan Rivera
+  headline: Senior Product Designer | Design Systems & User Research
+  location: Brooklyn, NY
+  email: jordan.rivera@design.io
+  phone: "+1 917 555 0199"
+  website: https://jordanrivera.design
+  social_networks:
+    - network: LinkedIn
+      username: jordanrivera
+    - network: X
+      username: jordandesigns
+  
+  sections:
+    summary:
+      - "Senior Product Designer with 6+ years creating intuitive, accessible, and delightful user experiences for web and mobile platforms. Led design for products serving 10M+ users. Expert in design systems, user research, and cross-functional collaboration. Passionate about inclusive design and mentoring junior designers."
+    
+    work_experience:
+      - company: Stripe
+        position: Senior Product Designer
+        start_date: 2022-01
+        end_date: present
+        location: New York, NY
+        highlights:
+          - "Led redesign of Stripe Dashboard serving 3M+ merchants, improving task completion rate by 35 percent"
+          - "Built and maintained design system used by 80+ designers across 15 product teams"
+          - "Conducted 50+ user research sessions identifying key pain points in payment workflows"
+          - "Collaborated with engineering team to reduce payment error rates by 28 percent through better UX"
+          - "Mentored 3 junior designers, 2 promoted to mid-level within one year"
+          - "Designed accessible components meeting WCAG 2.1 AA standards, improving accessibility score from 72 to 94"
+          - "Led design critiques and workshops improving team design quality and velocity"
+      
+      - company: Airbnb
+        position: Product Designer
+        start_date: 2020-03
+        end_date: 2021-12
+        location: San Francisco, CA
+        highlights:
+          - "Designed host onboarding flow reducing time-to-first-listing from 45 to 18 minutes"
+          - "Led user research initiative with 100+ hosts across 12 countries, informing product roadmap"
+          - "Created mobile-first messaging experience increasing response rate by 42 percent"
+          - "Collaborated with data science team to implement A/B testing framework for design decisions"
+          - "Contributed to Airbnb design system, creating 12 new components adopted company-wide"
+          - "Presented design work to C-suite executives and board members"
+      
+      - company: Spotify
+        position: Product Designer
+        start_date: 2018-06
+        end_date: 2020-02
+        location: New York, NY
+        highlights:
+          - "Designed playlist creation and sharing features used by 50M+ users monthly"
+          - "Led accessibility initiative improving screen reader experience for 2M+ visually impaired users"
+          - "Conducted generative research with 30+ power users, uncovering unmet needs"
+          - "Designed dark mode for mobile app, adopted by 65 percent of users within 3 months"
+          - "Collaborated with ML team to design personalized recommendation UI increasing engagement by 25 percent"
+          - "Won Spotify Design Award for most impactful project of 2019"
+    
+    education:
+      - institution: Rhode Island School of Design (RISD)
+        area: Graphic Design
+        degree: BFA
+        start_date: 2014-09
+        end_date: 2018-05
+        highlights:
+          - "Magna Cum Laude, GPA: 3.85 out of 4.0"
+          - "Presidential Scholarship recipient"
+          - "Thesis: Designing for Neurodiversity - Creating Inclusive Digital Experiences"
+          - "President of AIGA Student Chapter"
+    
+    projects:
+      - name: AccessKit Design System
+        date: 2023
+        highlights:
+          - "Open-source accessible component library for React with 1.8K GitHub stars"
+          - "WCAG 2.1 AAA compliant components with comprehensive documentation"
+          - "Used by 50+ companies including GitHub, Shopify, and Microsoft"
+          - "Featured in A11y Project and Smashing Magazine"
+      
+      - name: DesignOps Toolkit
+        date: 2022
+        highlights:
+          - "Internal tool at Stripe for managing design assets and documentation"
+          - "Reduced design handoff time by 60 percent through automated workflows"
+          - "Adopted by 12 product teams, managing 5K+ design files"
+      
+      - name: Inclusive Design Playbook
+        date: 2021
+        highlights:
+          - "Workshop series and documentation for inclusive design practices"
+          - "Trained 100+ designers and product managers at Airbnb"
+          - "Published as open-source resource with 500+ downloads"
+    
+    skills:
+      - label: Design Tools
+        details: "Figma (Expert), Sketch, Adobe Creative Suite (Photoshop, Illustrator, XD), Framer, Principle, ProtoPie"
+      
+      - label: Design Systems
+        details: "Component Libraries, Design Tokens, Documentation, Version Control, Accessibility Standards"
+      
+      - label: User Research
+        details: "User Interviews, Usability Testing, A/B Testing, Survey Design, Persona Development, Journey Mapping, Card Sorting"
+      
+      - label: Prototyping & Development
+        details: "HTML, CSS, JavaScript (basic), React (basic), Git, Responsive Design, Animation"
+      
+      - label: Collaboration
+        details: "Cross-functional Leadership, Stakeholder Management, Design Critiques, Workshop Facilitation, Presentation Skills"
+      
+      - label: Accessibility
+        details: "WCAG 2.1 Standards, Screen Readers, Keyboard Navigation, Color Contrast, Inclusive Design Principles"
+    
+    additional_experience_and_awards:
+      - label: Speaking & Teaching
+        details: "Guest Lecturer at Parsons (Product Design), Speaker at Config 2023 (Design Systems at Scale), Workshop Leader at UXDX Conference (Inclusive Design)"
+      
+      - label: Awards
+        details: "Webby Award Honoree for Stripe Dashboard (2023), Fast Company Innovation by Design Finalist (2022), AIGA Design for Good Award (2021)"
+      
+      - label: Publications
+        details: "Contributing Writer for Smashing Magazine (2022-present), Featured in UX Collective, CSS-Tricks, A List Apart"
+      
+      - label: Certifications
+        details: "Certified Professional in Accessibility Core Competencies (CPACC), Nielsen Norman Group UX Certification"
+      
+      - label: Community Involvement
+        details: "Mentor at Hexagon UX (supporting underrepresented designers), Portfolio Reviewer for AIGA, Judge at Adobe Creative Jam"
+      
+      - label: Design Tools Beta Testing
+        details: "Figma Beta Tester (2020-present), Adobe XD Beta Program, Framer Advisory Board"
+
+design:
+  theme: moderncv
+  page:
+    size: us-letter

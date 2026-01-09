@@ -1,0 +1,158 @@
+cv:
+  name: Alex Chen
+  headline: Senior Software Engineer | Distributed Systems & Cloud Architecture
+  location: Seattle, WA
+  email: alex.chen@email.com
+  phone: "+1 206 555 0123"
+  website: https://alexchen.dev
+  social_networks:
+    - network: LinkedIn
+      username: alexchen
+    - network: GitHub
+      username: alexchen
+    - network: X
+      username: alexchendev
+  
+  sections:
+    summary:
+      - "Senior Software Engineer with 8+ years building scalable distributed systems and cloud-native applications. Led teams of 5-8 engineers delivering high-impact features to millions of users. Expert in system design, performance optimization, and mentoring junior engineers. Strong focus on operational excellence and engineering culture."
+    
+    work_experience:
+      - company: Amazon Web Services (AWS)
+        position: Senior Software Development Engineer
+        start_date: 2021-03
+        end_date: present
+        location: Seattle, WA
+        highlights:
+          - "Architected and led development of multi-region disaster recovery system for AWS S3, improving reliability from 99.9 percent to 99.99 percent uptime"
+          - "Reduced cloud infrastructure costs by 2.4M USD annually through intelligent resource optimization algorithms"
+          - "Mentored 6 junior engineers, 4 promoted to mid-level within 18 months"
+          - "Designed API gateway handling 50K requests per second with p99 latency under 10ms"
+          - "Led cross-team initiative to standardize observability practices across 15 services"
+          - "Authored technical RFCs adopted by 3 sister teams, improving developer productivity by 35 percent"
+      
+      - company: Google
+        position: Software Engineer III
+        start_date: 2019-01
+        end_date: 2021-02
+        location: Mountain View, CA
+        highlights:
+          - "Built real-time fraud detection system for Google Pay processing 100M+ transactions daily"
+          - "Reduced false positive rate from 12 percent to 3 percent using machine learning models"
+          - "Implemented distributed tracing infrastructure improving debugging time by 60 percent"
+          - "Led migration from monolith to microservices architecture for payments team"
+          - "Optimized database queries reducing average response time from 500ms to 80ms"
+          - "Contributed to open-source gRPC-go library, merged 8 PRs improving performance"
+      
+      - company: Microsoft
+        position: Software Engineer II
+        start_date: 2017-06
+        end_date: 2018-12
+        location: Redmond, WA
+        highlights:
+          - "Developed Azure Functions runtime features used by 500K+ developers"
+          - "Improved cold start time by 70 percent through intelligent caching strategies"
+          - "Built telemetry pipeline processing 2TB of logs daily with Kafka and Spark"
+          - "Automated deployment pipeline reducing release time from 4 hours to 20 minutes"
+          - "Participated in on-call rotation, maintained 99.95 percent SLA for production services"
+      
+      - company: Dropbox
+        position: Software Engineer
+        start_date: 2016-07
+        end_date: 2017-05
+        location: San Francisco, CA
+        highlights:
+          - "Implemented file syncing algorithm improving sync reliability by 40 percent"
+          - "Built RESTful API serving 10M+ active users with sub-100ms latency"
+          - "Contributed to Python backend services handling 50K concurrent connections"
+          - "Designed and implemented rate limiting system preventing abuse and DDoS attacks"
+    
+    education:
+      - institution: University of California, Berkeley
+        area: Computer Science
+        degree: BS
+        start_date: 2012-09
+        end_date: 2016-05
+        highlights:
+          - "GPA: 3.8 out of 4.0"
+          - "Relevant Coursework: Distributed Systems, Operating Systems, Computer Networks, Algorithms"
+          - "Teaching Assistant for CS 162 (Operating Systems) - 3 semesters"
+          - "Built distributed key-value store as capstone project, presented at departmental showcase"
+    
+    projects:
+      - name: KubeWatch
+        date: 2023
+        highlights:
+          - "Open-source Kubernetes monitoring tool with 3.2K GitHub stars"
+          - "Real-time cluster health visualization and alerting system"
+          - "Adopted by 200+ companies including Stripe, Shopify, and Airbnb"
+          - "Technologies: Go, React, Prometheus, WebSockets"
+      
+      - name: DistCache
+        date: 2022
+        highlights:
+          - "Distributed caching library for Go with consistent hashing and auto-scaling"
+          - "Used in production by AWS Lambda team for internal services"
+          - "Achieved 10x performance improvement over existing solutions in benchmarks"
+          - "Technologies: Go, Redis, gRPC"
+      
+      - name: LogStream
+        date: 2020
+        highlights:
+          - "High-throughput log aggregation service processing 1M events per second"
+          - "Built for Google internal use, handling logs from 500+ microservices"
+          - "Reduced log storage costs by 60 percent through intelligent compression"
+          - "Technologies: Java, Kafka, Elasticsearch, Kubernetes"
+    
+    publications:
+      - title: "Optimizing Distributed Cache Consistency in Multi-Region Deployments"
+        authors: ["Alex Chen", "Sarah Johnson", "Michael Lee"]
+        doi: 10.1145/3442381.3449876
+        date: 2023-05
+        journal: "ACM SIGOPS Operating Systems Review"
+      
+      - title: "Real-time Anomaly Detection in Large-Scale Distributed Systems"
+        authors: ["Alex Chen", "David Kim"]
+        doi: 10.1109/CLOUD.2022.00032
+        date: 2022-07
+        journal: "IEEE Cloud Computing Conference"
+    
+    skills:
+      - label: Programming Languages
+        details: "Python, Go, Java, C++, JavaScript/TypeScript, Rust (learning)"
+      
+      - label: Distributed Systems
+        details: "Microservices, Service Mesh, gRPC, REST APIs, Message Queues, Event-Driven Architecture"
+      
+      - label: Cloud & Infrastructure
+        details: "AWS (EC2, S3, Lambda, DynamoDB, RDS), Kubernetes, Docker, Terraform, CloudFormation"
+      
+      - label: Data & Storage
+        details: "PostgreSQL, MySQL, MongoDB, Redis, Cassandra, Elasticsearch, Kafka, RabbitMQ"
+      
+      - label: Observability
+        details: "Prometheus, Grafana, Datadog, New Relic, OpenTelemetry, Distributed Tracing"
+      
+      - label: Leadership
+        details: "Team Leadership, Technical Mentoring, System Design, Code Review, RFC Writing, Incident Response"
+    
+    additional_experience_and_awards:
+      - label: Conference Talks
+        details: "AWS re:Invent 2023 (Distributed Systems Best Practices), KubeCon 2022 (Observability at Scale), PyCon 2021 (Building High-Performance Python Services)"
+      
+      - label: Awards
+        details: "AWS Top Performer Award (2023), Google Peer Bonus (3x), Microsoft Hackathon Winner (2018)"
+      
+      - label: Certifications
+        details: "AWS Solutions Architect Professional, Certified Kubernetes Administrator (CKA), Google Cloud Professional Architect"
+      
+      - label: Open Source
+        details: "Kubernetes Contributor (20+ merged PRs), Prometheus Contributor, gRPC-go Maintainer"
+      
+      - label: Volunteer Work
+        details: "Code Mentor at Girls Who Code (2020-present), Interview Coach for underrepresented groups in tech"
+
+design:
+  theme: engineeringresumes
+  page:
+    size: us-letter

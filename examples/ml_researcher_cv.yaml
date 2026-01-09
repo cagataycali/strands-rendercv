@@ -1,0 +1,161 @@
+cv:
+  name: Dr. Maya Patel
+  headline: Machine Learning Researcher | Foundation Models & Multimodal AI
+  location: Stanford, CA
+  email: maya.patel@stanford.edu
+  website: https://mayapatel.ai
+  social_networks:
+    - network: LinkedIn
+      username: drmayapatel
+    - network: GitHub
+      username: mayapatel
+    - network: Google Scholar
+      username: maya-patel
+    - network: X
+      username: mayapatelai
+  
+  sections:
+    summary:
+      - "Machine Learning Researcher specializing in foundation models, multimodal learning, and AI alignment. Published 18 peer-reviewed papers with 2500+ citations. Currently postdoctoral researcher at Stanford AI Lab working on next-generation vision-language models. Passionate about making AI systems more interpretable, robust, and beneficial to humanity."
+    
+    work_experience:
+      - company: Stanford University
+        position: Postdoctoral Researcher, Stanford AI Lab
+        start_date: 2023-09
+        end_date: present
+        location: Stanford, CA
+        highlights:
+          - "Leading research on multimodal foundation models combining vision, language, and audio"
+          - "Developed novel attention mechanism improving vision-language alignment by 23 percent on VQA benchmarks"
+          - "Collaborating with Meta AI and Google DeepMind on joint research projects"
+          - "Mentoring 4 PhD students and 6 master's students on research projects"
+          - "Published 3 papers at top-tier conferences: NeurIPS, ICML, CVPR"
+          - "Secured 500K USD grant from NSF for research on interpretable multimodal AI"
+      
+      - company: OpenAI
+        position: Research Scientist Intern
+        start_date: 2022-06
+        end_date: 2022-12
+        location: San Francisco, CA
+        highlights:
+          - "Contributed to GPT-4 vision capabilities development"
+          - "Developed novel dataset of 10M image-text pairs for improved visual reasoning"
+          - "Improved image captioning quality by 18 percent through reinforcement learning from human feedback"
+          - "Collaborated with safety team on multimodal alignment techniques"
+          - "Presented research findings to 50+ person research team in weekly seminars"
+      
+      - company: Google Brain
+        position: Student Researcher
+        start_date: 2021-05
+        end_date: 2021-08
+        location: Mountain View, CA
+        highlights:
+          - "Researched efficient training methods for large-scale vision transformers"
+          - "Reduced training time by 40 percent through gradient checkpointing optimizations"
+          - "Published findings at ICLR 2022 (Oral presentation, top 5 percent of submissions)"
+          - "Collaborated with Google Cloud AI team to deploy research prototypes"
+    
+    education:
+      - institution: Massachusetts Institute of Technology (MIT)
+        area: Computer Science
+        degree: PhD
+        start_date: 2018-09
+        end_date: 2023-06
+        highlights:
+          - "Dissertation: Towards More Robust and Interpretable Multimodal Foundation Models"
+          - "Advisor: Prof. Regina Barzilay (Turing Award Winner)"
+          - "GPA: 4.0 out of 4.0"
+          - "NSF Graduate Research Fellowship (2019-2023)"
+          - "MIT Presidential Fellowship (2018-2019)"
+          - "Best Paper Award at NeurIPS 2022 for dissertation work"
+      
+      - institution: Stanford University
+        area: Computer Science, minor in Statistics
+        degree: BS
+        start_date: 2014-09
+        end_date: 2018-06
+        highlights:
+          - "Summa Cum Laude, GPA: 3.95 out of 4.0"
+          - "Phi Beta Kappa Honor Society"
+          - "Stanford AI Lab Undergraduate Researcher (2016-2018)"
+          - "President's Award for Academic Excellence"
+    
+    publications:
+      - title: "CLIP-Turbo: Efficient Vision-Language Pre-training with Knowledge Distillation"
+        authors: ["Maya Patel", "James Chen", "Sarah Williams", "David Kim"]
+        doi: 10.48550/arXiv.2312.12345
+        date: 2024-01
+        journal: "International Conference on Learning Representations (ICLR 2024) - Spotlight"
+      
+      - title: "Multimodal Chain-of-Thought Reasoning for Visual Question Answering"
+        authors: ["Maya Patel", "Regina Barzilay"]
+        doi: 10.48550/arXiv.2310.98765
+        date: 2023-10
+        journal: "Neural Information Processing Systems (NeurIPS 2023)"
+      
+      - title: "Understanding and Mitigating Spurious Correlations in Vision-Language Models"
+        authors: ["Maya Patel", "Alex Johnson", "Regina Barzilay"]
+        doi: 10.48550/arXiv.2306.54321
+        date: 2023-06
+        journal: "International Conference on Machine Learning (ICML 2023) - Oral"
+      
+      - title: "Robust Multimodal Representations via Contrastive Learning"
+        authors: ["Maya Patel", "Sarah Kim", "Michael Chen"]
+        doi: 10.48550/arXiv.2212.11111
+        date: 2022-12
+        journal: "Conference on Computer Vision and Pattern Recognition (CVPR 2023)"
+      
+      - title: "Scaling Laws for Vision Transformers: An Empirical Study"
+        authors: ["Maya Patel", "David Lee", "James Wilson"]
+        doi: 10.48550/arXiv.2202.22222
+        date: 2022-02
+        journal: "International Conference on Learning Representations (ICLR 2022) - Oral"
+      
+      - title: "Attention Mechanisms for Multimodal Fusion: A Survey"
+        authors: ["Maya Patel", "Regina Barzilay"]
+        doi: 10.48550/arXiv.2109.33333
+        date: 2021-09
+        journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+    
+    skills:
+      - label: Research Areas
+        details: "Foundation Models, Multimodal Learning, Vision-Language Models, AI Alignment, Interpretability, Robustness"
+      
+      - label: Machine Learning
+        details: "Deep Learning, Transformers, Diffusion Models, Reinforcement Learning, Meta-Learning, Few-Shot Learning"
+      
+      - label: Programming
+        details: "Python, PyTorch, JAX, TensorFlow, C++, CUDA, Triton"
+      
+      - label: Infrastructure
+        details: "Distributed Training, Multi-GPU/TPU, Ray, Kubernetes, Docker, Weights & Biases, TensorBoard"
+      
+      - label: Mathematics
+        details: "Linear Algebra, Probability Theory, Optimization, Information Theory, Statistics"
+    
+    additional_experience_and_awards:
+      - label: Conference Service
+        details: "Area Chair: ICLR 2025, Reviewer: NeurIPS (2020-2024), ICML (2021-2024), CVPR (2022-2024), ICLR (2021-2024)"
+      
+      - label: Invited Talks
+        details: "MIT CSAIL Seminar (2024), Berkeley AI Research Lab (2023), Google Brain (2023), Stanford HAI (2023), Meta AI (2022)"
+      
+      - label: Awards & Honors
+        details: "NeurIPS Best Paper Award (2022), ICLR Outstanding Paper Award (2022), Forbes 30 Under 30 in AI (2023), MIT Sprowls Award for Best PhD Thesis (2023)"
+      
+      - label: Teaching Experience
+        details: "Guest Lecturer at Stanford CS231n (Computer Vision), MIT 6.S191 (Deep Learning), Teaching Assistant for MIT 6.867 (Machine Learning) - 4 semesters"
+      
+      - label: Open Source
+        details: "Creator of MultiModalBench (5K+ stars), Contributor to PyTorch Vision, Hugging Face Transformers (15+ merged PRs)"
+      
+      - label: Press Coverage
+        details: "Featured in MIT News, Stanford News, VentureBeat, TechCrunch AI, The Gradient"
+      
+      - label: Grants & Funding
+        details: "NSF CAREER Award Nominee (2024), NSF Grant (500K USD, 2023-2026), MIT Presidential Fellowship (2018-2019), NSF GRFP (2019-2023)"
+
+design:
+  theme: classic
+  page:
+    size: us-letter
